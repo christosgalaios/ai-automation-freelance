@@ -1,0 +1,11 @@
+id,customer,feedback,product,date,rating
+1,Acme Corp,The integration was seamless and saved us hours every week,AI Workflow Pro,2026-04-01,5
+2,Beta Ltd,Setup was confusing and documentation is lacking,MCP Server Kit,2026-04-02,2
+3,Gamma Inc,Works as expected nothing special,Content Pipeline,2026-04-03,3
+4,Delta Co,Absolutely love the automation features game changer for our team,AI Workflow Pro,2026-04-04,5
+5,Epsilon Ltd,Found a bug where the CSV parser fails on empty rows,Workflow Automation,2026-04-05,1
+6,Zeta Corp,Great product but pricing is too high for small teams,MCP Server Kit,2026-04-06,4
+7,Eta Ltd,The multi-agent system is exactly what we needed for our pipeline,Multi-Agent Systems,2026-04-07,5
+8,Theta Inc,Response times could be improved,AI Workflow Pro,2026-04-08,3
+9,Iota Co,Excellent support and fast delivery,Content Pipeline,2026-04-09,5
+10,Kappa Ltd,The API documentation needs more examples,MCP Server Kit,2026-04-10,3

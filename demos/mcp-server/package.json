@@ -1,0 +1,22 @@
+{
+  "name": "@ai-automation/mcp-server",
+  "version": "1.0.0",
+  "description": "Multi-tool MCP server demo with 5 production-ready tools",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "tsx": "^4.15.0",
+    "vitest": "^1.6.0",
+    "@types/node": "^20.14.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ai-automation-freelance",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "demos/mcp-server",
+    "demos/content-pipeline",
+    "demos/workflow-automation",
+    "tools/proposal-gen",
+    "tools/tracker"
+  ],
+  "scripts": {
+    "test": "vitest run --reporter=verbose && npm test --workspace=tools/tracker",
+    "test:watch": "vitest",
+    "build": "npm run build --workspace=site",
+    "build:site": "npm run build --workspace=site"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0",
+    "@types/node": "^20.14.0"
+  }
+}
